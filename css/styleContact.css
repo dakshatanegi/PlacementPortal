@@ -1,0 +1,50 @@
+.contact-section {
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 3%;
+    margin-left: 35%;
+  }
+  
+  .contact-section h2 {
+    margin-top: 0;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contact-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-section input, .contact-section textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #submit-review-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  #review-success-message {
+    color: green;
+    margin-top: 20px;
+  }
+  
